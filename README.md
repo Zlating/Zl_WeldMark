@@ -1,2 +1,2 @@
 # Zl_WeldMark
-WeldMark
+plugin for Tekla Structures; WeldMark
