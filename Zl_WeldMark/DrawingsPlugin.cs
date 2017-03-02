@@ -249,13 +249,9 @@ namespace Zl_WeldMark
 
         Polygon GetTriangle(ViewBase v, PointList pl, bool filled = false)
         {
-            Polygon poly = new Polygon(v, pl);
-            poly.Attributes.Line.Color = col;
-            if (filled)
-            {
-                poly.Attributes.Hatch.Name = "hardware_SOLID";
-                poly.Attributes.Hatch.Color = DrawingHatchColors.Black;
-            }
+            Polygon poly = GetTriangle(v, new tsg.Point(), filled);
+            poly.Points.Clear();
+            poly.Points = pl;
             return poly;
         }
 
