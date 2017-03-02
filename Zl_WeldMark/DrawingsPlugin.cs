@@ -40,12 +40,12 @@ namespace Zl_WeldMark
             T3,
             T6,
             T7,
-            Ó4,
-            Ó6,
-            Ó7,
-            Í1,
-            Í2,
-            Ñ2,
+            U4,
+            U6,
+            U7,
+            H1,
+            H2,
+            C2,
         }
 
         #endregion
@@ -178,26 +178,26 @@ namespace Zl_WeldMark
                 arc.Attributes.Arrowhead.ArrowPosition = ArrowheadPositions.None;
                 arc.Attributes.Line.Type = LineTypes.SolidLine;
 
-                if (tw == TypeWeld.T1 || tw == TypeWeld.Ó4 || tw == TypeWeld.Í1)
+                if (tw == TypeWeld.T1 || tw == TypeWeld.U4 || tw == TypeWeld.H1)
                 {
                     triangle_top.Insert();
                 }
-                else if (tw == TypeWeld.T3 || tw == TypeWeld.Í2)
+                else if (tw == TypeWeld.T3 || tw == TypeWeld.H2)
                 {
                     triangle_top.Insert();
                     triangle_bottom.Insert();
                 }
-                else if (tw == TypeWeld.Ñ2)
+                else if (tw == TypeWeld.C2)
                 {
                     doule_line_1.Insert();
                     doule_line_2.Insert();
                 }
-                else if (tw == TypeWeld.T6 || tw == TypeWeld.Ó6)
+                else if (tw == TypeWeld.T6 || tw == TypeWeld.U6)
                 {
                     doule_line_1.Insert();
                     dl_line_45.Insert();
                 }
-                else if (tw == TypeWeld.T7 || tw == TypeWeld.Ó7)
+                else if (tw == TypeWeld.T7 || tw == TypeWeld.U7)
                 {
                     doule_line_1.Insert();
                     dl_line_45.Insert();
