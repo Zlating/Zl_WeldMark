@@ -22,8 +22,8 @@ namespace Zl_WeldMark
         public string tw;
     }
 
-    [Plugin("ZL_WeldMark")]
-    [PluginUserInterface("ZL_WeldMark.MainForm")]
+    [Plugin("Zl_WeldMark")]
+    [PluginUserInterface("Zl_WeldMark.MainForm")]
     public class Zl_WeldMark : DrawingPluginBase
     {
         #region Fields
