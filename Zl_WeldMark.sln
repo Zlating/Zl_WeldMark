@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
+# Visual Studio 2012
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zl_WeldMark", "Zl_WeldMark\Zl_WeldMark.csproj", "{CB64AFDA-1F0F-4B12-A7CE-74BD1679CBB5}"

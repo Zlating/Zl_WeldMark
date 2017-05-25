@@ -5,15 +5,11 @@
     <TSVersionFolderName>2016i</TSVersionFolderName>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{CB64AFDA-1F0F-4B12-A7CE-74BD1679CBB5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Zl_WeldMark</RootNamespace>
     <AssemblyName>Zl_WeldMark</AssemblyName>
-    <StartupObject>
-    </StartupObject>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -36,6 +32,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <Description>Zl_WeldMark</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,11 +67,11 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tekla.Structures, Version=$(TSVersionNumber).0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
-    <Reference Include="Tekla.Structures.Dialog, Version=$(TSVersionNumber).0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
-    <Reference Include="Tekla.Structures.Drawing, Version=$(TSVersionNumber).0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
-    <Reference Include="Tekla.Structures.Plugins, Version=$(TSVersionNumber).0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Tekla Structures\$(TSVersionFolderName)\nt\bin\plugins\Tekla.Structures.Plugins.dll</HintPath>
+    <Reference Include="Tekla.Structures, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
+    <Reference Include="Tekla.Structures.Dialog, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
+    <Reference Include="Tekla.Structures.Drawing, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL" />
+    <Reference Include="Tekla.Structures.Plugins, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=2f04dbe497b71114, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Tekla Structures\2016i\nt\bin\plugins\Tekla.Structures.Plugins.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -97,4 +94,13 @@
     <None Include="app.config" />
   </ItemGroup>
   <!--Change values below to .Net 4 using VS-->
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <StandardHeader Text="&#xA; ${FileName}&#xA; &#xA; Author:&#xA;      arnkey &lt;arnkey@yandex.ru&gt;&#xA;&#xA; Copyright (c) 2017 arnkey&#xA;&#xA; This library is free software; you can redistribute it and/or modify&#xA; it under the terms of the GNU Lesser General Public License as&#xA; published by the Free Software Foundation; either version 2.1 of the&#xA; License, or (at your option) any later version.&#xA;&#xA; This library is distributed in the hope that it will be useful, but&#xA; WITHOUT ANY WARRANTY; without even the implied warranty of&#xA; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU&#xA; Lesser General Public License for more details.&#xA;&#xA; You should have received a copy of the GNU Lesser General Public&#xA; License along with this library; if not, write to the Free Software&#xA; Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA" IncludeInNewFiles="True" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>
