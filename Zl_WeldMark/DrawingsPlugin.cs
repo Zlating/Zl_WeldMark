@@ -89,9 +89,6 @@ namespace Zl_WeldMark
         #region Overrides
         public override List<InputDefinition> DefineInput()
         {
-            //
-            // This is an example for selecting two points; change this to suit your needs.
-            //
             List<InputDefinition> inputs = new List<InputDefinition>();
             DrawingHandler drawingHandler = new DrawingHandler();
 
